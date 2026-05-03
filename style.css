@@ -5,7 +5,8 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     transition: .3s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
 }
 
 body {
@@ -20,14 +21,13 @@ header {
     justify-content: space-between;
     width: 100%;
     padding: 1rem 5%;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    border: .5px solid rgb(139, 138, 138);
     align-items: center;
     z-index: 999;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -44,14 +44,14 @@ header {
 
 }
 
-nav a {
+nav {
+    display: flex;
+    gap: 2rem;
     align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    padding: .5rem 2rem;
-    background-color: white;
+}
+
+nav a {
     color: black;
-    font-weight: lighter;
     text-decoration: none;
 
 }
@@ -69,9 +69,9 @@ nav a {
     background-color: black;
     color: white;
     border-radius: 20px;
-    text-align: center;
     border: none;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .search_bar .search {
@@ -82,8 +82,8 @@ nav a {
 
 }
 
-input {
-    width: 100px;
+.search input{
+    width: 200px;
     height: 22px;
     border: none;
     outline: none;
@@ -179,12 +179,10 @@ input {
 }
 
 .places button {
-    text-align: center;
-    border-color: black;
+    border: 1px solid black;
     border-radius: 20px;
     padding: .5rem 2rem;
-    align-items: center;
-    background-color: #fff;
+    background: #fff;
     cursor: pointer;
 }
 
@@ -313,8 +311,7 @@ input {
 }
 
 .rightBox .imgRight button {
-    text-align: center;
-    border-color: black;
+    border: 1px solid black;
     border-radius: 20px;
     padding: .5rem 2rem;
     align-items: center;
@@ -432,6 +429,7 @@ footer {
     color: black;
 
 }
+
 .footer .social .links h1 {
     font-size: x-large;
 }
