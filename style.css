@@ -82,7 +82,7 @@ nav a {
 
 }
 
-.search input{
+.search input {
     width: 200px;
     height: 22px;
     border: none;
@@ -261,6 +261,16 @@ nav a {
 
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card p {
+    font-size: small;
+}
+
 /* section 4 */
 
 .box {
@@ -310,6 +320,8 @@ nav a {
     border-radius: 20px;
 }
 
+
+
 .rightBox .imgRight button {
     border: 1px solid black;
     border-radius: 20px;
@@ -346,7 +358,7 @@ nav a {
 }
 
 .newsletter .email input {
-    width: 150px;
+    width: 200px;
     height: 30px;
     border: none;
     outline: none;
@@ -416,6 +428,10 @@ footer {
 .footer-col .brand img {
     width: 20px;
     height: 20px;
+}
+
+.social i {
+    font-size: 30px;
 }
 
 .footer .social {
